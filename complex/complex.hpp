@@ -19,14 +19,15 @@ class  complex
 
         // 成员函数操作符重载
         complex& operator+=(const complex&);
-        complex operator+(const complex& x)
-        {
-            return x;
-        }
-        complex operator-(const complex& x)
-        {
-            return complex(-x.re, -x.im);
-        }
+        // 这里表示复数取反取正有点问题
+        // complex operator+(const complex& x)
+        // {
+        //     return x;
+        // }
+        // complex operator-(const complex& x)
+        // {
+        //     return complex(-x.re, -x.im);
+        // }
 
         
         double real() const     // const 表示不改变对象
