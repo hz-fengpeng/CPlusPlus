@@ -1,2 +1,2 @@
 project(complex)
-add_executable(test complex.cpp test.cpp)
+add_executable(testComplex test.cpp complex.cpp)
