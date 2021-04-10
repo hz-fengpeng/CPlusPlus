@@ -1,2 +1,4 @@
+cmake_minimum_required(VERSION 2.8)
 project(complex)
-add_executable(testComplex test.cpp complex.cpp)
+aux_source_directory(. DIR_SRCS)
+add_executable(testComplex ${DIR_SRCS})
